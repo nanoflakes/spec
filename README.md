@@ -36,7 +36,7 @@ therefore can be used as a unique ID for a time series. A user can also
 use the nanoflake's timestamp to determine when the nanoflake was generated.
 This is done by shifting the timestamp 22 bits to the right, and adding the
 epoch to the result in order to get the nanoflake's timestamp in milliseconds
-since the epoch start as defined by the application.
+since the UNIX epoch.
 
 ## Ensuring Uniqueness
 
